@@ -107,5 +107,41 @@ align-items: flex-start;
 
 .fnav{
     display: flex;
-    justify-content: center;
+    /* justify-content: center;
+     */
+     margin-top: 150px;
+     
 }
+
+.fnav h4{
+        background-color: greenyellow;
+        color: black;
+        font-size: 20px;
+margin-left: 90px ;
+     }
+
+     .fnav p{
+color: #000;
+font-family: "Space Grotesk";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+padding-left: 35px;
+     }
+
+.more{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+border-radius: 45px;
+background: var(--Dark, #191A23);
+
+
+}
+
+/* color: #000;
+font-family: "Space Grotesk";
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal; */
